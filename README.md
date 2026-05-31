@@ -1,50 +1,173 @@
-🚀 Completed a Manual Testing Project: ATM Banking System Testing
+# ATM Banking System – Manual Testing Project
 
-As part of my learning journey in Software Testing, I completed a Manual Testing project focused on an ATM Banking System.
+## Project Overview
 
-🔹 Modules Tested:
+This project demonstrates the Manual Testing process for an ATM Banking System. The objective was to validate the functionality of different ATM operations by creating test cases, identifying defects, and preparing testing documentation.
 
-• Login Authentication
+The project follows the Software Testing Life Cycle (STLC) and focuses on requirement analysis, test case design, test execution, defect reporting, and test summary preparation.
 
-• Balance Inquiry
+---
 
-• Cash Withdrawal
+## Objectives
 
-• Cash Deposit
+* Understand the Software Testing Life Cycle (STLC)
+* Design and execute manual test cases
+* Identify and report software defects
+* Perform functional and validation testing
+* Create professional testing documentation
 
-• PIN Change
+---
 
-• Mini Statement
+## Modules Tested
 
-• Logout
+### Login Authentication
 
+* Valid Login
+* Invalid Login
+* Empty Field Validation
+* PIN Validation
 
-🔹 What I Learned:
+### Balance Inquiry
 
-✅ Requirement Analysis
+* Balance Display
+* Balance Update Verification
 
-✅ Test Case Design
+### Cash Withdrawal
 
-✅ Functional Testing
+* Valid Withdrawal
+* Insufficient Balance
+* Negative Amount Validation
+* Daily Limit Validation
 
-✅ Negative Testing
+### Cash Deposit
 
-✅ Boundary Value Analysis
+* Valid Deposit
+* Invalid Deposit Amount
+* Input Validation
 
-✅ Defect Reporting
+### PIN Change
 
-✅ Software Testing Life Cycle (STLC)
+* Correct Old PIN Verification
+* PIN Length Validation
+* Empty Field Validation
 
-📊 Project Deliverables:
+### Mini Statement
 
-• Software Requirement Specification (SRS)
+* Transaction History Display
+* Statement Validation
 
-• 40+ Test Cases
+### Logout
 
-• Bug Reports
+* Session Termination
+* Access Restriction After Logout
 
-• Test Summary Report
+---
 
-This project helped me understand how software testers validate applications and identify defects before deployment.
+## Testing Types Performed
 
-#SoftwareTesting #ManualTesting #QA #STLC #Testing #GitHub #LearningJourney #Fresher #QualityAssurance
+* Functional Testing
+* Negative Testing
+* Boundary Value Analysis
+* Validation Testing
+* Smoke Testing
+
+---
+
+## Project Deliverables
+
+### Software Requirement Specification (SRS)
+
+Defines the requirements and functionality of the ATM Banking System.
+
+### Test Cases
+
+Designed and executed 40 manual test cases covering various user scenarios.
+
+### Bug Report
+
+Documented defects identified during testing with severity levels.
+
+### Test Summary Report
+
+Prepared final testing results and observations.
+
+---
+
+## Test Execution Summary
+
+| Metric           | Count |
+| ---------------- | ----- |
+| Total Test Cases | 40    |
+| Executed         | 40    |
+| Passed           | 35    |
+| Failed           | 5     |
+| Defects Found    | 5     |
+
+---
+
+## Sample Defects Identified
+
+### BUG001
+
+Login accepts blank PIN.
+
+**Severity:** High
+
+### BUG002
+
+System allows withdrawal of negative amounts.
+
+**Severity:** Critical
+
+### BUG003
+
+Deposit module accepts alphabetic characters.
+
+**Severity:** Medium
+
+### BUG004
+
+PIN Change module accepts a 2-digit PIN.
+
+**Severity:** High
+
+### BUG005
+
+Mini Statement displays duplicate transactions.
+
+**Severity:** Medium
+
+---
+
+## Tools Used
+
+* Microsoft Excel
+* Microsoft Word
+* GitHub
+
+---
+
+## Skills Demonstrated
+
+* Requirement Analysis
+* Test Case Design
+* Functional Testing
+* Boundary Value Analysis
+* Negative Testing
+* Defect Reporting
+* Test Documentation
+* Software Testing Life Cycle (STLC)
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in software quality assurance processes, manual testing techniques, defect management, and testing documentation. This project helped me understand how software testers ensure application quality before deployment.
+
+---
+
+## Author
+
+**Mannat Kumar**
+
+B.Tech Student | Data Science Enthusiast | Aspiring Software Tester
