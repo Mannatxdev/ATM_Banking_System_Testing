@@ -3,13 +3,21 @@
 As part of my learning journey in Software Testing, I completed a Manual Testing project focused on an ATM Banking System.
 
 🔹 Modules Tested:
+
 • Login Authentication
+
 • Balance Inquiry
+
 • Cash Withdrawal
+
 • Cash Deposit
+
 • PIN Change
+
 • Mini Statement
+
 • Logout
+
 
 🔹 What I Learned:
 ✅ Requirement Analysis
