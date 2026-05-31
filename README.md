@@ -20,18 +20,29 @@ As part of my learning journey in Software Testing, I completed a Manual Testing
 
 
 🔹 What I Learned:
+
 ✅ Requirement Analysis
+
 ✅ Test Case Design
+
 ✅ Functional Testing
+
 ✅ Negative Testing
+
 ✅ Boundary Value Analysis
+
 ✅ Defect Reporting
+
 ✅ Software Testing Life Cycle (STLC)
 
 📊 Project Deliverables:
+
 • Software Requirement Specification (SRS)
+
 • 40+ Test Cases
+
 • Bug Reports
+
 • Test Summary Report
 
 This project helped me understand how software testers validate applications and identify defects before deployment.
